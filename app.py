@@ -1,7 +1,8 @@
 '''
 Author: Khandoker Tanjim Ahammad
 Date: 26.08.2023
-Purpose: simple text summarizer app using deep learning. 
+Purpose: Simple text summarizer app using deep learning. 
+generate requirement file: pipreqs --encoding=utf8 ./
 '''
 import streamlit as st
 from transformers import T5ForConditionalGeneration, T5Tokenizer
