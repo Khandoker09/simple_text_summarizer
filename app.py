@@ -16,7 +16,7 @@ def smt5():
     st.title("Text Summarization App")
     st.markdown("###### This text summarizer was build using Hugging Face Transformer model. It is a open source library. From this library we have use T5-small model.The T5 (Text-to-Text Transfer Transformer) model is primarily an abstractive model. Abstractive models generate summaries or paraphrases in a more human-like manner by understanding the input text and generating new, coherent text that captures the essential meaning of the input. They have the ability to produce summaries that may not appear verbatim in the input text and can provide more concise and coherent summaries compared to extractive methods.")
     # Text input box
-    st.markdown("###### Tips: Try to avoid the author name,image or table, only paste the the text you want to summarize")
+    st.markdown("###### Tips: Try to avoid the author name,image or table, only paste the the text you want to summarize. Also avoid adding text containing bullet points or list")
     
     st.subheader("Paste the text you want to summarize:")
     input_text = st.text_area("Input Text", "")
