@@ -31,6 +31,6 @@ def smt5():
             st.write(summary)
         else:
             st.warning("Please enter some text to summarize.")
-
+    st.sidebar.markdown("This app is Maintained by: [Khandoker Tanjim Ahammad](https://github.com/Khandoker09)
 if __name__ == "__main__":
     smt5()
